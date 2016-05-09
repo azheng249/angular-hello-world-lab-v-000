@@ -8,9 +8,14 @@
 </head>
 <body>
 
-    <script src="js/angular.js"></script>
-    <script src="js/app/app.js"></script>
-    <script src="js/app/controllers/MainController.js"></script>
+  <div ng-app="app">  
+    <div ng-controller="MainController">
+      Hello, I'm {{ name }}! My email is {{ email }} and my phone number is {{ phone }}
+    </div>
+  </div>
 
+  <script src="js/angular.js"></script>
+  <script src="js/app/app.js"></script>
+  <script src="js/app/controllers/MainController.js"></script>
 </body>
 </html>
